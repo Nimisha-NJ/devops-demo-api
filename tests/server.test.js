@@ -14,5 +14,6 @@ describe("DevOps Demo API", () => {
 
     expect(response.statusCode).toBe(200);
     expect(response.body.status).toBe("healthy");
+    expect(response.body.version).toBe("1.0.0");
   });
 });
