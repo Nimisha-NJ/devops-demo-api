@@ -2,10 +2,11 @@
   "name": "devops-demo-api",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "start": "node src/server.js",
-  "test": "jest"
-},
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +15,9 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
     "jest": "^30.4.2",
     "supertest": "^7.2.2"
   }
